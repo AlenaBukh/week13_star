@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Сурвис комментариев</title>
+    <link rel="stylesheet" href="assets/normalize.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+
+  <body>
+    <h1>Сервис комментариев со спам фильтром</h1>
+    <h2>Оставьте Ваш комментарий</h2>
+    Показывать Ваше имя?
+    <input type="checkbox" id="nameVisible" />Да <br />
+
+    Введите Ваше имя <input id="name" /> <br />
+    Введите ссылку Вашего аватара <input id="url" /> <br />
+    Оставьте комментарий <input id="comment" /> <br />
+
+    <button onclick="sendComment()">Отправить</button>
+
+    <div id="writtenComment">Чат</div>
+
+    <script src="./index13_star.js"></script>
+  </body>
+</html>
